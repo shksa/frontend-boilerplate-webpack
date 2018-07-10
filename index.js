@@ -1,3 +1,3 @@
-import HelloWebpack from './src/app'
+import HelloWebpackAndBabel from './src/app'
 
-document.getElementById('root').innerHTML = HelloWebpack()
+document.getElementById('root').innerHTML = new HelloWebpackAndBabel().render()

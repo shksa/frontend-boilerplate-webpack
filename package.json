@@ -5,11 +5,15 @@
   "main": "index.js",
   "author": "sreekar",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-beta.52"
+  },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
+    "@babel/cli": "^7.0.0-beta.52",
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "babel-loader": "^8.0.0-beta",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^0.28.11",
@@ -22,6 +26,12 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.config.dev.js",
-    "build": "webpack --config config/webpack.config.prod.js"
-  }
+    "build": "webpack --config config/webpack.config.prod.js",
+    "transpile-src": "babel src --out-dir transpiled-src"
+  },
+  "browserslist": [
+    "last 1 version",
+    "not dead",
+    "> 1%"
+  ]
 }

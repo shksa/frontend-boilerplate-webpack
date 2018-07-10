@@ -63,7 +63,7 @@ module.exports = {
         test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: 'babel-loader',
+          loader: 'babel-loader', // This loader allows transpiling .js files using the babel tool.
         }
       },
 
