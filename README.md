@@ -1,2 +1,2 @@
-# frontend-boilerplate-webpack
-A boilerplate for frontend projects that use webpack.
+# frontend boilerplate with webpack and babel configured
+A boilerplate for frontend projects that use webpack and babel tools.
