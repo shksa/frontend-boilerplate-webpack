@@ -21,7 +21,7 @@ class HelloWebpackAndBabel {
 
   render() {
     const someWebpackAndBabelTools = {...this.someBabelTools, ...this.someWebpackTools}
-    return `
+    return /*html*/`
       <div id="greeting">hello webpack and babel</div>
       <div>some of the webpack and babel tools used</div>
       <ul>

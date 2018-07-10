@@ -28,10 +28,12 @@ module.exports = {
     hot: true // Enable webpack's Hot Module Replacement feature.
 
     // proxy: {
-    //   '/api': 'http://localhost:3000' - A request to /api/users will now proxy the request to http://localhost:3000/api/users.
+    //   '/api': 'http://localhost:3000' 
+    //      - A request to /api/users will now proxy the request to http://localhost:3000/api/users.
     // } 
 
-    // pathRewrite: {'^/api' : ''} - If you don't want /api to be passed along, we need to rewrite the path.
+    // pathRewrite: {'^/api' : ''} 
+    //      - If you don't want /api to be passed along, we need to rewrite the path.
 
     // publicPath: '/' 
     //      - The bundled files will be available in the browser under this path.
